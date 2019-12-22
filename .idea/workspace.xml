@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfabad5d-38a0-4117-ad49-bebc1d5c9d5a" name="Default Changelist" comment="上传请柬">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/btn-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/btnLogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gameLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rightA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rightTwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sub-8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/titleBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xdtgg_frxz2_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wedding_invitation.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\software\Git\bin\git.exe" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="liuqi3312" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IDE-Project\web\wedding_invitation\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VL4j2HawBUnd54HpzSBxuOZchj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDE-Project\web\wedding_invitation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDE-Project\web\wedding_invitation" />
+      <recent name="D:\IDE-Project\web\wedding_invitation\css" />
+    </key>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../scala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfabad5d-38a0-4117-ad49-bebc1d5c9d5a" name="Default Changelist" comment="" />
+      <created>1577019172066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577019172066</updated>
+      <workItem from="1577019187666" duration="3817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="上传请柬" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传请柬" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1027" y="122" key="CommitChangelistDialog2" timestamp="1577023034941">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1027" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577023034941" />
+    <state x="292" y="400" key="FileChooserDialogImpl" timestamp="1577022791136">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="292" y="400" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577022791136" />
+    <state x="302" y="441" width="382" height="174" key="Github.CreateGistDialog" timestamp="1577021970352">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="302" y="441" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577021970352" />
+    <state x="606" y="435" key="Github.ShareDialog" timestamp="1577022565234">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="606" y="435" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577022565234" />
+    <state x="401" y="242" key="NewModule_or_Project.wizard" timestamp="1577022251552">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="401" y="242" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1577022251552" />
+    <state x="0" y="170" key="SettingsEditor" timestamp="1577022155650">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577022155650" />
+  </component>
+</project>
