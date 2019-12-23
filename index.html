@@ -3,314 +3,205 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>LOVE</title>
   <meta name="description" content="">
+  <meta name="theme-color" content="#fafafa">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <!-- Place favicon.ico in the root directory 将favicon.ico放在根目录中 -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/style.css">
 
-  <meta name="theme-color" content="#fafafa">
 
-  <div id="gameLogo">
-    <h1><a href="#"><img src="images/gameLogo.png"/></a></h1>
-  </div>
-  <div class="gameIndex">
-    <a href="#">首页</a>
-  </div>
-  <div id="menu">
-    <a href="#">注册</a> |
-    <a href="#">登录</a> |
-    <a href="#">帮助</a> |
-    <a href="#">更多</a>
-  </div>
+  <link href="favicon.ico" rel="shortcut icon"/>
+  <style>
+    Html {
+      font-size: 62.5%(10 / 16 *100%)
+    }
+
+    body {
+      overflow: hidden;
+      margin: 0;
+
+    }
+
+    h1 {
+      position: fixed;
+      top: 50%;
+      left: 0;
+      width: 90%;
+      text-align: center;
+      transform: translateY(-50%);
+      font-family: 'Love Ya Like A Sister', cursive;
+      font-size: 1.9rem;
+      color: #c70012;
+      padding: 0 20px;
+    }
+
+    h1 span {
+      font-size: 1.3rem;
+    }
+  </style>
 
 </head>
-
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<audio autoplay="autoplay" loop="loop">
+  <source src="/audio/hunli.mp3" type="audio/mpeg">
+</audio>
 
-  <!-- Add your site or application content here  在这里添加您的站点或应用程序内容-->
-  <!--主体内容开始-->
-  <article id="container">
-    <!--左侧内容开始-->
-    <section class="gameLeft">
-      <div class="clear firstLine">
-        <div class="gameNav">
-          <ul>
-            <li><a href="#"><img src="images/sub-2.gif"/>征战四方</a></li>
-            <li><a href="#"><img src="images/sub-3.gif"/>龙将</a></li>
-            <li><a href="#"><img src="images/sub-4.gif"/>弹弹堂</a></li>
-            <li><a href="#"><img src="images/sub-5.gif"/>凡人修真2</a></li>
-            <li><a href="#"><img src="images/sub-6.gif"/>一骑当先</a></li>
-            <li><a href="#"><img src="images/sub-7.gif"/>宫廷计</a></li>
-            <li><a href="#"><img src="images/sub-8.gif"/>神仙道</a></li>
-          </ul>
-        </div>
-        <div class="gameAdver">
-          <a href="#"><img src="images/xdtgg_frxz2_44.jpg"/></a>
-          <ul class="code clear">
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-          </ul>
-        </div>
-      </div>
+<!-- Add your site or application content here  在这里添加您的站点或应用程序内容-->
+<!--主体内容开始-->
 
-      <div class="gameBorder">
-        <div class="gameTitle">
-          <dl>
-            <dt>全部游戏</dt>
-            <dd><a href="#">战争策略</a></dd>
-            <dd>|</dd>
-            <dd><a href="#">体育经营</a></dd>
-            <dd>|</dd>
-            <dd><a href="#">社交游戏</a></dd>
-          </dl>
-        </div>
-        <div class="allGame">
-          <ul class="clear">
-            <li>
-              <div class="img">
-                <a href="#">
-                  <img src="images/img-4.jpg"/>
-                </a>
-              </div>
-              <div class="list">
-                <p>三国题材横版RPG网游，丰富的武将系统</p>
+<h1 id="h1"></h1>
+<canvas></canvas>
 
-                <p>类型：角色扮演</p>
+<script>
+  var canvas = document.querySelector("canvas"),
+    ctx = canvas.getContext("2d");
 
-                <p>游戏人气：<span>470921</span></p>
+  var ww, wh;
 
-                <p class="playBtn">
-                  <a href="#">选服</a>
-                  <a class="active" href="#">进入游戏</a>
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="img">
-                <a href="#">
-                  <img src="images/img-5.jpg"/>
-                </a>
-              </div>
-              <div class="list">
-                <p>一款不建主城不等CD，不占资源，全程战斗</p>
+  function onResize() {
+    ww = canvas.width = window.innerWidth;
+    wh = canvas.height = window.innerHeight;
+  }
 
-                <p>类型：战征策略</p>
+  ctx.strokeStyle = "red";
+  ctx.shadowBlur = 25;
+  ctx.shadowColor = "hsla(0, 100%, 60%,0.5)";
 
-                <p>游戏人气：8745221</p>
+  var precision = 100;
+  var hearts = [];
+  var mouseMoved = false;
 
-                <p class="playBtn">
-                  <a href="#">选服</a>
-                  <a class="active" href="#">进入游戏</a>
-                </p>
-              </div>
-            </li>
-          </ul>
-          <dl>
-            <dd>
+  function onMove(e) {
+    mouseMoved = true;
+    if (e.type === "touchmove") {
+      hearts.push(new Heart(e.touches[0].clientX, e.touches[0].clientY));
+      hearts.push(new Heart(e.touches[0].clientX, e.touches[0].clientY));
+    } else {
+      hearts.push(new Heart(e.clientX, e.clientY));
+      hearts.push(new Heart(e.clientX, e.clientY));
+    }
+  }
+
+  var Heart = function (x, y) {
+    this.x = x || Math.random() * ww;
+    this.y = y || Math.random() * wh;
+    this.size = Math.random() * 2 + 1;
+    this.shadowBlur = Math.random() * 10;
+    this.speedX = (Math.random() + 0.2 - 0.6) * 8;
+    this.speedY = (Math.random() + 0.2 - 0.6) * 8;
+    this.speedSize = Math.random() * 0.05 + 0.01;
+    this.opacity = 1;
+    this.vertices = [];
+    for (var i = 0; i < precision; i++) {
+      var step = (i / precision - 0.5) * (Math.PI * 2);
+      var vector = {
+        x: (15 * Math.pow(Math.sin(step), 3)),
+        y: -(13 * Math.cos(step) - 5 * Math.cos(2 * step) - 2 * Math.cos(3 * step) - Math.cos(4 * step))
+      }
+      this.vertices.push(vector);
+    }
+  }
+
+  Heart.prototype.draw = function () {
+    this.size -= this.speedSize;
+    this.x += this.speedX;
+    this.y += this.speedY;
+    ctx.save();
+    ctx.translate(-1000, this.y);
+    ctx.scale(this.size, this.size);
+    ctx.beginPath();
+    for (var i = 0; i < precision; i++) {
+      var vector = this.vertices[i];
+      ctx.lineTo(vector.x, vector.y);
+    }
+    ctx.globalAlpha = this.size;
+    ctx.shadowBlur = Math.round((3 - this.size) * 10);
+    ctx.shadowColor = "hsla(0, 100%, 60%,0.5)";
+    ctx.shadowOffsetX = this.x + 1000;
+    ctx.globalCompositeOperation = "screen"
+    ctx.closePath();
+    ctx.fill()
+    ctx.restore();
+  };
 
 
-          </dl>
-        </div>
-      </div>
+  function render(a) {
+    requestAnimationFrame(render);
 
-      <div class="gameBorder">
-        <div class="gameTitle">
-          <dl>
-            <dt>角色扮演</dt>
-          </dl>
-        </div>
-        <div class="role">
-          <ul>
-            <li><a href="#"><img src="images/img-6.jpg"/></a>
+    hearts.push(new Heart())
+    ctx.clearRect(0, 0, ww, wh);
+    for (var i = 0; i < hearts.length; i++) {
+      hearts[i].draw();
+      if (hearts[i].size <= 0) {
+        hearts.splice(i, 1);
+        i--;
+      }
+    }
+  }
 
-              <p>游戏人气：1765314<br/>
-                游戏状态：<span>22区开启</span></p>
 
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-7.jpg"/></a>
+  onResize();
+  window.addEventListener("mousemove", onMove);
+  window.addEventListener("touchmove", onMove);
+  window.addEventListener("resize", onResize);
+  requestAnimationFrame(render);
 
-              <p>游戏人气：1245814<br/>
-                游戏状态：<span>23区开启</span></p>
+  window.onload = function starttime() {
+    time(h1, '2017/12/4');                           // 在一起的时间
+    ptimer = setTimeout(starttime, 1000);            // 添加计时器
+  }
 
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-8.jpg"/></a>
+  function time(obj, futimg) {
+    var nowtime = new Date().getTime();             // 现在时间转换为时间戳
+    var futruetime = new Date(futimg).getTime();   // 未来时间转换为时间戳
+    var msec = nowtime - futruetime;                  // 毫秒 未来时间-现在时间
+    var time = (msec / 1000);                         // 毫秒/1000
+    var day = parseInt(time / 86400);                 // 天  24*60*60*1000
+    var hour = parseInt(time / 3600) - 24 * day;          // 小时 60*60 总小时数-过去的小时数=现在的小时数
+    var minute = parseInt(time % 3600 / 60);            // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
+    var second = parseInt(time % 60);                 // 以60秒为一整份 取余 剩下秒数
+//              console.log(hour+":"+minute+":"+second)
+//              alert(hour)
+    obj.innerHTML = "亲爱的<br>易梅<br>咱俩认识的时间已经：<br>" + day + "天" + hour + "小时" + minute + "分" + second + "秒" + "了<br><span>一时间不知道从哪说起,真爱来了，我们要好好把握。<br>不管面临多大的压力,不管前面的路如何崎岖.<br>不管经历过什么,我仍坚信最浪漫的事就是和你一起慢慢变老.<br>相信中间的计时器,将永远继续下去,直至数据溢出.</span>"
 
-              <p>游戏人气：1232158<br/>
-                游戏状态：<span>25区开启</span></p>
+    return true;
+  }
+</script>
 
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-9.jpg"/></a>
-
-              <p>游戏人气：123745<br/>
-                游戏状态：<span>18区开启</span></p>
-
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-10.jpg"/></a>
-
-              <p>游戏人气：178501<br/>
-                游戏状态：<span>火爆开启</span></p>
-
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-11.jpg"/></a>
-
-              <p>游戏人气：983014<br/>
-                游戏状态：<span>2服开启</span></p>
-
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-12.jpg"/></a>
-
-              <p>游戏人气：745214<br/>
-                游戏状态：<span>4服开启</span></p>
-
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-            <li><a href="#"><img src="images/img-13.jpg"/></a>
-
-              <p>游戏人气：654814<br/>
-                游戏状态：<span>火爆开启</span></p>
-
-              <p class="playBtn">
-                <a href="#">选服</a>
-                <a class="active" href="#">进入游戏</a>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!--右侧内容开始-->
-    <aside class="gameRight">
-      <div class="gameLogin clear">
-        <h1>开心网用户登录</h1>
-
-        <form action="#">
-          <ul>
-            <li>账号：
-              <input name="username" type="text" placeholder="字母、数字的六位字符" required/>
-            </li>
-            <li>密码：
-              <input name="pwd" type="password" placeholder="四位数字" required/>
-            </li>
-            <li>
-              <input class="login" name="login" type="submit" value=" "/>
-
-            </li>
-            <li>
-              <a href="#">立即注册</a>
-              <a href="#">忘记密码</a>
-            </li>
-          </ul>
-        </form>
-
-      </div>
-
-      <div class="gameBorder">
-        <div class="gameTitle">
-          <dl>
-            <dt>新闻公告</dt>
-          </dl>
-        </div>
-        <ul class="news">
-          <li><a href="#">[征战四方] 开心首服·黄巾之乱</a></li>
-          <li><a href="#">[龙将] 火爆8服·八门金</a></li>
-          <li><a href="#">[弹弹堂] 41服开启·万人竞技</a></li>
-          <li><a href="#">[凡人修真2] 03月08日·四海帝王</a></li>
-          <li><a href="#">[一骑当先] 开心2服上线送黄金</a></li>
-          <li><a href="#">[宫廷计] 03月06日·西施秘史</a></li>
-          <li class="noBorder"><a href="#">[凡人修真2] 03月08日·四海帝王</a></li>
-        </ul>
-      </div>
-
-      <div class="ad">
-        <a href="#"><img src="images/ad1.jpg" alt=""/></a>
-        <a href="#"><img src="images/ad2.jpg" alt=""/></a>
-      </div>
-
-      <div class="gameBorder">
-        <div class="gameTitle">
-          <dl>
-            <dt>游戏视频</dt>
-          </dl>
-        </div>
-        <div class="clear"></div>
-        <dl class="gameVideo">
-          <dt><a href="#"><img src="images/img-1.jpg"/></a><a href="#">《航海之王》麻辣炫酷反穿越，英雄时尚大变身！</a></dt>
-          <dd><a href="#"><img src="images/img-2.jpg"/></a><a href="#">《弹弹堂》吴克群同名激情主题MV，体验修真乐趣</a></dd>
-        </dl>
-        <div class="clear"></div>
-      </div>
-    </aside>
-    <!--右侧内容结束-->
-  </article>
-  <!--主体内容结束-->
-  <footer id="footer">
-    <a href="#">关于我们</a>
-    <a href="#">手机版</a>
-    <a href="#">开放平台</a>
-    <a href="#"> 自助广告</a>
-    <a href="#"> 招聘</a>
-    <a href="#">客服</a>
-    <a href="#">帮助</a>
-<!--    @2017开心网&nbsp;&nbsp; 文网文[2009]157号&nbsp;&nbsp; 京ICP证080482号&nbsp;&nbsp; 京公网安备110000000003号 未成年人家长监护-->
-  </footer>
-  <!--广告动画-->
-  <div class="adRight">
-    <a class="icon" href="#">X</a>
-    <a href="#"><img src="images/ad3.jpg" alt=""/></a>
-  </div>
+<!--主体内容结束-->
 
 <!--  <p>Hello world! This is HTML5 Boilerplate.</p>-->
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 谷歌分析:更改UA-XXXXX-Y为您的网站的ID -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 谷歌分析:更改UA-XXXXX-Y为您的网站的ID -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
